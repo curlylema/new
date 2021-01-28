@@ -1,0 +1,173 @@
+@import url("fonts/stylesheet.css");
+
+body, section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stolzl-Light', Arial, Verdana;
+	background-color: #4C1DD2;
+	color:#fff;
+}
+.bubble1 {
+    position: absolute;
+    top: 30%;
+    }
+
+.bubble2 {
+    position: absolute;
+    top: 22%;
+	left: 48%;
+    }
+.bubble3 {
+	position:absolute;
+	top:0;
+	right:0;
+}	
+.btn-blue {background-color:#4F15F3; 
+	color:#fff;
+	border:none;}
+.ws {
+display: flex;
+    align-items: center;
+    justify-content: space-between;}
+.ws svg {margin: 0px 20px 0 0;}
+.red {
+	background-color:#F86161;
+	border-color:#F86161;
+	color:#fff;
+}
+.round {border-radius: 19px;
+	margin: 14% 0;}
+.round div {position:absolute;}
+
+section {height: calc(100vh - 116px);}
+.content {display:flex;
+	flex-direction:column;
+	justify-content:center;
+	margin-left:65px;}
+.content p {font-size: 1.5rem;}
+.girl {right:-50px;
+    bottom: -6px;
+	}	
+.girl image {height: inherit;}	
+.drops {position: absolute;
+    top: calc(100% + 200px);
+    left: 1080px;}	
+.black1 {    top: -5%;
+    left: -20%;}
+.black2 {top: -22%;
+    right: -45%;}	
+.graph {top: -20%;
+    right: -20%;}	
+
+h1{
+		font-family:Stolzl-Book;
+		line-height: 150%;
+}
+h1 span {
+		font-family:Stolzl-Thin;
+		line-height: 150%;
+}
+.nav-link  {font-family: 'Stolzl';}
+.plus {
+	position: absolute;
+    color: #fff;
+    top: 16%;
+    left: 8%;
+}
+.plus2 {position: absolute;
+    top: 51%;
+    left: 55%;}
+	
+.plus1 {	position: absolute;
+    bottom: 15%;
+    left: 10%;}
+.plus:after {
+		content: ' \002B';
+		font-size: x-large;}
+.plus1:after  {content: ' \002B';
+	font-size: normal;}
+.plus2:after  {content: ' \002B';font-size: xx-small;}
+.ring {position: absolute;
+    top: 30%;
+    left: 53%;}
+.ring:after {
+	content:' \2218';
+	font-size:xx-large;
+}
+
+
+@media (max-width: 767px) {
+
+.bubble2, .drops  {display: none;
+}
+.black2 {
+    top: -25%;
+    right: -5%;
+}
+.girl {
+    right: auto;
+    left: 15%;
+    bottom: -67%;
+}
+.girl svg {width: 100%;}
+.black1 {
+    top: -35%;
+    left: -5%;
+}
+.graph {
+    top: -20%;
+    right: 0;
+    left: 80px;
+}
+.bubble1 svg {width: 50%;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.drops {position: absolute;
+    top: calc(100% + 170px);
+    left: 930px;}
+	.graph {
+    top: 10%;
+    right: -20%;
+}
+.black2 {
+    top: -2%;
+    right: -45%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.drops {
+    position: absolute;
+    top: 710px;
+    left: 540px;
+}
+.black2 {
+    top: -70%;
+    right: -20%;
+}
+.graph {
+    top: -70%;
+    right: -10%;
+}
+.black1 {
+    top: -20%;
+    left: -15%;
+}
+.bubble2 {display:none;}
+.content {margin: 0 auto;}
+
+.girl {
+    right: -100px;
+    bottom: -77px;
+}
+.girl svg {height: 600px;}
+.round {
+    margin: 4% 134px;
+    max-width: 451px;
+}}
+
+
+
+
